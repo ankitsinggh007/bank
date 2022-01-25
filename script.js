@@ -86,7 +86,7 @@ const sectionfunction = function (entries, observer) {
 let secObserver = new IntersectionObserver(sectionfunction, {
   root: null,
   threshold: 0.15,
-  roorMargin:"200px"
+  rootMargin:"200px"
 });
 sections.forEach(element => {
   element.classList.add('section--hidden');
